@@ -1,0 +1,28 @@
+.ios-glass {
+  backdrop-filter: blur(8px);
+border: 1px solid rgba(255,255,255,0.3);
+box-shadow: 0 0px 42px rgba(0,0,0,0.3);
+  -webkit-backdrop-filter: blur(1px); 
+  
+  
+ height: 800px;
+  border-radius: 30px; 
+  padding: 20px;
+  max-width: 1700px;
+  width: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("pexels-pixabay-158729.jpg") center/cover no-repeat;
+
+    border: 0px solid rgba(255,255,255,0.3);
+   
+    box-sizing: border-box;
+}
+
